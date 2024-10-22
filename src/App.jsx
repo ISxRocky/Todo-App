@@ -1,5 +1,5 @@
 import AddTodo from "./components/AddTodo";
-import AppName from "./components/Appname";
+import AppName from "./components/AppName";
 import "./App.css";
 import TodoItems from "./components/TodoItems";
 import { useState } from "react";
