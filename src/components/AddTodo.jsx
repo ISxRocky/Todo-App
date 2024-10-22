@@ -2,8 +2,8 @@ import { useState } from "react";
 import styles from "../css/AddTodo.module.css";
 
 const AddTodo = ({ onNewItem }) => {
-  const [todoName, setTodoName] = useState();
-  const [todoDate, setTodoDate] = useState();
+  const [todoName, setTodoName] = useState("");
+  const [todoDate, setTodoDate] = useState("");
 
   const handleTodoNameChange = (e) => {
     setTodoName(e.target.value);
