@@ -1,0 +1,8 @@
+/* Add more specificity to your CSS */
+.kg-row {
+  margin: 10px 8px;
+}
+
+.kg-button {
+  min-width: 80px;
+}
